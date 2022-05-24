@@ -1,0 +1,51 @@
+.container {
+    margin-bottom: 40px;
+}
+
+.carousel_section {
+    background-image: url("/bg-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.myBtns {
+    background-image: linear-gradient( to bottom, #585858 0%, #020001 100%);
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    padding: 8px 20px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.carousel-item {
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.carousel-item .col-6 p {
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.card {
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #00000010;
+}
+
+.card img {
+    padding: 50px;
+}
+
+.orange_txt {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+#products {
+    margin-bottom: 100px;
+}

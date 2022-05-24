@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- nav section -->
+    <section class="container">
+        <nav class="navbar navbar-expand-lg navbar-light justify-content-around">
+            <div>
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png" alt="" srcset="">
+                </a>
+            </div>
+            <div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">Home</a>
+                        <a class="nav-item nav-link" href="#products">Product</a>
+                        <a class="nav-item nav-link" href="#">About Us</a>
+                        <a class="nav-item nav-link" href="#">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- carousel_section -->
+    <section class="container carousel_section">
+        <div id="carouselExampleControls" class="carousel slide orange-bg" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-6">
+                            <h1>Mackbook Pro</h1>
+                            <p>The MacBook Pro is a line of Macintosh notebook computers by Apple Inc. Introduced in January 2006, it is the higher-end model of the MacBook family, sitting above the consumer-focused MacBook Air. It is currently sold with
+                                13-inch, 14-inch, and 16-inch screens, all using variants of the Apple-designed M1 system on a chip.
+                            </p>
+                            <button class="myBtns">Buy Now</button>
+                        </div>
+                        <div class="col-6">
+                            <img src="banner-products/product-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-6">
+                            <h1>Alexa</h1>
+                            <p>Amazon Alexa, also known simply as Alexa, is a virtual assistant technology largely based on a Polish speech synthesiser named Ivona, bought by Amazon in 2013. It was first used in the Amazon Echo smart speaker and the Echo
+                                Dot, Echo Studio and Amazon Tap speakers developed by Amazon Lab126.
+                            </p>
+                            <button class="myBtns">Buy Now</button>
+                        </div>
+                        <div class="col-6">
+                            <img src="banner-products/slider-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-6">
+                            <h1>Torch</h1>
+                            <p>A torch is a stick with combustible material at one end, which is ignited and used as a light source.[1] Torches have been used throughout history, and are still used in processions, symbolic and religious events, and in juggling
+                                entertainment. In some countries "torch" in modern usage is the term for a battery-operated portable light.
+                            </p>
+                            <button class="myBtns">Buy Now</button>
+                        </div>
+                        <div class="col-6">
+                            <img src="banner-products/slider-3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+    <!-- smartphone card section -->
+    <section class="container" id="products">
+        <div class="d-flex justify-content-between">
+            <h2>Smartphone</h2>
+            <p class="orange_txt">See All</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="phone/phone-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">iPhone 11 Pro</h5>
+                        <p class="card-text">The iPhone 11 Pro and iPhone 11 Pro Max are smartphones designed, developed and marketed by Apple Inc. </p>
+                        <h5>$999</h5>
+                        <button class="myBtns">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="phone/phone-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsang Galaxy Note10+</h5>
+                        <p class="card-text">The Samsung Galaxy Note 10 (stylized as Samsung Galaxy Note10) is a line of Android-based phablets.</p>
+                        <h5>$799</h5>
+                        <button class="myBtns">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 ">
+                    <img src="phone/phone-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Redmi</h5>
+                        <p class="card-text">The Redmi Note 10 is a line of Android-based smartphones as part of the Redmi Note series by Redmi.</p>
+                        <h5>$699</h5>
+                        <button class="myBtns">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- laptop card section -->
+    <section class="container" id="products">
+        <div class="d-flex justify-content-between">
+            <h2>Laptop</h2>
+            <p class="orange_txt">See All</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="laptop/product-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Asus Vivobook</h5>
+                        <p class="card-text">The Asus Vivo lineup consists of laptops (VivoBooks), All-in-Ones (Vivo AiO), desktops (VivoPC), Stick PCs (VivoStick), Mini PCs (VivoMini).</p>
+                        <h5>$999</h5>
+                        <button class="myBtns">Buy Now →</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="laptop/product-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Blade 15</h5>
+                        <p class="card-text">This is a list of various Razer gaming hardware products. Individual products may have their own article, please see the navbox at the bottom if a product is not listed here.</p>
+                        <h5>$2799</h5>
+                        <button class="myBtns">Buy Now →</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 ">
+                    <img src="laptop/product-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Xiaomi Mi Notebook Pro</h5>
+                        <p class="card-text">Xiaomi Corporation registered in Asia as Xiaomi Inc., is a Chinese designer and manufacturer of consumer electronics and related software.</p>
+                        <h5>$999</h5>
+                        <button class="myBtns">Buy Now →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
