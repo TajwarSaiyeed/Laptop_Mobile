@@ -3,7 +3,7 @@
 }
 
 .carousel_section {
-    background-image: url("/bg-1.png");
+    background-image: url("../bg-1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -38,6 +38,13 @@
 
 .card img {
     padding: 50px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 30px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 20px;
 }
 
 .orange_txt {

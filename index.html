@@ -15,24 +15,20 @@
 <body>
     <!-- nav section -->
     <section class="container">
-        <nav class="navbar navbar-expand-lg navbar-light  justify-content-between">
+        <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
             <div class="container-fluid">
-                <div>
-                    <a class="navbar-brand" href="#">
-                        <img src="logo.png" alt="" srcset="">
-                    </a>
-                </div>
-                <div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png" alt="" srcset="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link" href="#products">Product</a>
-                            <a class="nav-link" href="#">About Us</a>
-                            <a class="nav-link">Contact Us</a>
-                        </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#products">Product</a>
+                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -42,7 +38,7 @@
 
 
     <!-- carousel_section -->
-    <section class="container carousel_section">
+    <!-- <section class="container carousel_section">
         <div id="carouselExampleControls" class="carousel slide orange-bg" data-bs-ride="carousel">
 
             <div class="carousel-inner">
@@ -77,9 +73,8 @@
                 <div class="carousel-item">
                     <div class="row align-items-center">
                         <div class="col-6">
-                            <h1>Torch</h1>
-                            <p>A torch is a stick with combustible material at one end, which is ignited and used as a light source.[1] Torches have been used throughout history, and are still used in processions, symbolic and religious events, and in juggling
-                                entertainment. In some countries "torch" in modern usage is the term for a battery-operated portable light.
+                            <h1>JBL</h1>
+                            <p>JBL is an American company that manufactures audio hardware, including loudspeakers and headphones. JBL serves the consumer home and professional market.
                             </p>
                             <button class="myBtns">Buy Now</button>
                         </div>
@@ -99,6 +94,66 @@
             </button>
         </div>
 
+    </section> -->
+    <section class="container carousel_section">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-6">
+                            <h1>Mackbook Pro</h1>
+                            <p>The MacBook Pro is a line of Macintosh notebook computers by Apple Inc. Introduced in January 2006, it is the higher-end model of the MacBook family, sitting above the consumer-focused MacBook Air. It is currently sold with
+                                13-inch, 14-inch, and 16-inch screens, all using variants of the Apple-designed M1 system on a chip.
+                            </p>
+                            <button class="myBtns">Buy Now</button>
+                        </div>
+                        <div class="col-6">
+                            <img src="banner-products/product-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-6">
+                            <h1>Alexa</h1>
+                            <p>Amazon Alexa, also known simply as Alexa, is a virtual assistant technology largely based on a Polish speech synthesiser named Ivona, bought by Amazon in 2013. It was first used in the Amazon Echo smart speaker and the Echo
+                                Dot, Echo Studio and Amazon Tap speakers developed by Amazon Lab126.
+                            </p>
+                            <button class="myBtns">Buy Now</button>
+                        </div>
+                        <div class="col-6">
+                            <img src="banner-products/slider-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-6">
+                            <h1>JBL</h1>
+                            <p>JBL is an American company that manufactures audio hardware, including loudspeakers and headphones. JBL serves the consumer home and professional market.
+                            </p>
+                            <button class="myBtns">Buy Now</button>
+                        </div>
+                        <div class="col-6">
+                            <img src="banner-products/slider-3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
     </section>
     <!-- smartphone card section -->
     <section class="container" id="products">
